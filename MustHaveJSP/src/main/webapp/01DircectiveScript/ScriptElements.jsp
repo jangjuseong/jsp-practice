@@ -13,7 +13,8 @@
 	int result = add(10, 20);
 	%>
 	덧셈 결과 1:
-	<%=result%><br /> 덧셈 결과 2:
+	<%=result%><br />
+	덧셈 결과 2:
 	<%=add(30, 40)%>
 </body>
 </html>
