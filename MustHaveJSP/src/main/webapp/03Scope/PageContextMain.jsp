@@ -1,7 +1,7 @@
 <%@ page import="common.Person"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-// 속성 저장
+// 속성 저장 - pageContext 개체는 JSP 컨테이너에서 자동으로 제공
 pageContext.setAttribute("pageInteger", 1000);
 pageContext.setAttribute("pageString", "페이지 영역의 문자열");
 pageContext.setAttribute("pagePerson", new Person("한석봉", 99));
